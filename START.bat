@@ -37,7 +37,7 @@ echo Using: %PY%
 echo.
 
 echo Installing libraries (first run may take 1-2 minutes)...
-%PY% -m pip install pandas numpy yfinance requests streamlit plotly
+%PY% -m pip install --quiet pandas numpy yfinance requests streamlit plotly
 echo.
 
 if not exist "smc_forex_bot_v2.py" (
